@@ -1,0 +1,94 @@
+// // ========================================= 
+// // Media Queries
+// // Flexbox settings
+// // ========================================= 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // flexbox ============================== /
+// @mixin flex ($display: flex, $direction: null, $wrap: null, $justify: null) {
+//     display: $display;
+//     flex-direction: $direction;
+//     flex-wrap: $wrap;
+//     justify-content: $justify;
+// }
+
+// // navigation ============================== /
+// @mixin nav ($back-color, $border-radius, $color, $hover-color) {
+//     list-style: none;
+//     height: $link-height;
+//     margin: 0 1em;
+//     &:hover {
+//         background: $back-color;
+//         border-radius: $border-radius;
+//     }
+//     a {
+        
+//         text-decoration: none;
+//         color: $color;
+//         padding-top: $top-padding;
+//         height: $height-100;
+//         &:hover {
+//             color: $hover-color;
+//         }
+//     }
+// }
+
+// // links ============================== /
+// @mixin link ($decor, $weight, $color) {
+//     text-decoration: $decor;
+//     font-weight: $weight;
+//     color: $color;
+// }
+
+// // blockquote ============================== /
+// @mixin blockquote ($fontsize, $align, $borderleft, $borderradius, $paddingleft) {
+//     font-size: $fontsize;
+//     // text-align: $align-justify;
+//     border-left: $borderleft;
+//     border-radius: $borderradius;
+//     padding-left: $paddingleft;
+//     margin: 1em;
+//     font-style: italic;
+// }
+
+// // button ============================== /
+// @mixin bttn ($button-color, $border-radius, $color, $padding, $margin: null, $upper: null) {
+//     height: $grid-height;
+//     background: $button-color;
+//     border-radius: $border-radius;
+//     color: $color;
+//     padding: $padding;
+//     height: $height-100;
+//     margin: $margin;
+//     text-transform: $upper;
+//     font-weight: bold;
+// }
+
+// // navigation ============================== /
+// // Breakpoints =========================== /
+// $breakpoints: ('769': 769px);
+
+// @mixin mediaq($breakpoint) { 
+// 	$value: map-get($breakpoints, $breakpoint);
+// 	$size: map-get($breakpoints, '769'); 
+// 	@if $value >= $size {
+// 		@media (min-width: $value) {
+//         @content; 
+//         }
+//     } 
+// }

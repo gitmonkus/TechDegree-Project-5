@@ -1,0 +1,34 @@
+// // ===================================================================================== 
+// //  (*)
+// // ul elements
+// // p elements
+// // ===================================================================================== 
+
+
+
+
+
+
+
+
+
+
+
+
+
+// * {
+//     box-sizing: border-box;
+//   }
+// ul {
+//   padding-left: 0;
+//   margin-top: 2.5em;
+//   margin-bottom: 5em;
+//     @include mediaq('769') {
+//       @include flex();
+//       margin-right: 11em;
+//       margin-top: 4em;
+//     }  
+//   }
+//   p {
+//     text-align: $align-left;
+//   }

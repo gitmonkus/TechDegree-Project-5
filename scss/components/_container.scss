@@ -1,0 +1,145 @@
+// // Container:
+// //     .wrapper
+// //     .pic-wrapper
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .container {
+//     padding: 1.5em;
+//     max-width: $max-width;
+//     margin: 0 auto;
+//     @include mediaq('769') {
+//         padding: 0;
+//     }
+// }
+
+// .grid__row {
+//     text-align: $align-left;
+//     margin-bottom: $margin-bottom-big;
+//     & .card {
+//         padding: 0 1.5em;
+//         @include mediaq('769') {
+//             margin: -5em 2em 0;
+//             // width: 80%;
+//         }
+//     }
+//     &:last-of-type {
+//         margin-bottom: 1em;
+//         @include mediaq('769') {
+//             margin-bottom: 6em;
+//         }
+//     }
+//     @include mediaq('769') {
+//         @include flex(flex, row, null, center);
+        
+//       }
+//       & .headline--secondary {
+//         margin-top: 5em;
+//         @include mediaq('769') {
+//             margin-top: 9em;
+//         }
+//     }
+    
+// }
+
+// .grid__col--3 {
+//     text-align: $align-center;
+//     &.theme__colors {
+//         text-align: $align-left;
+//         @include bttn($grid-3, $border-radius, $grid-text, $grid-padding, $margin-bottom-small);
+//         @include mediaq('769') {
+//             text-align: $align-center;
+//         }
+//     }
+//     @include mediaq('769') {
+//         flex: 1;
+//         text-align: $align-center;
+//     }
+// }
+// .grid__col--4 {
+//     &.theme__colors {
+//         @include bttn($grid-4, $border-radius, $grid-text, $grid-padding, $margin-bottom-small);
+//     }
+//     @include mediaq('769') {
+//         flex: 1;
+//         text-align: $align-center;
+//     }
+// }
+// .grid__col--5 {
+//     &.theme__colors {
+//         @include bttn($grid-5, $border-radius, $grid-text, $grid-padding, $margin-bottom-small);
+//     }
+//     @include mediaq('769') {
+//         flex: 1.5;
+//         text-align: $align-center;
+//     }
+// }
+// .grid__col--6 {
+//     text-align: $align-center;
+//     padding: 0 1em;
+//     &.theme__colors {
+//         text-align: $align-left;
+//         @include bttn($grid-6, $border-radius, $grid-text, $grid-padding, $margin-bottom-small);
+//         @include mediaq('769') {
+//             text-align: $align-center;
+//         }
+//     }
+//     @include mediaq('769'){
+//         flex: 1;
+//         text-align: $align-center;
+//     }
+// }
+
+// .grid__col--7 {
+//     &.theme__colors {
+//         @include bttn($grid-7, $border-radius, $grid-text, $grid-padding, $margin-bottom-small);
+//     }
+//     @include mediaq('769') {
+//         flex: 2;
+//         text-align: $align-center;
+//     }
+// }
+// .centered {
+//     @include mediaq('769') {
+//         flex: .5;
+//     }
+// }
+// .grid__col--8 {
+//     &.theme__colors {
+//         @include bttn($grid-8, $border-radius, $grid-text, $grid-padding, $margin-bottom-small);
+//     }
+//     @include mediaq('769'){
+//         flex: 2;
+//         text-align: $align-center;
+//     }
+// }
+
+// .grid__col--12 {
+//     @include flex(flex, column, wrap, center);
+//     @include mediaq('769') {
+//         @include flex(flex, row, wrap, space-around);
+//         flex: 1;
+//         height: 100%;
+//         text-align: $align-center;
+//     }
+//     margin-top: 3em;
+//     &.theme__colors {
+//         @include bttn($grid-12, $border-radius, $grid-text, $grid-padding);
+//     }
+// }
