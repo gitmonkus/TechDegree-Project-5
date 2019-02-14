@@ -2,6 +2,16 @@
 // // At minimum, create variables for fonts, breakpoints, and colors.
 // // ================================================================ 
 
+//layout ============================== /
+$marginAuto: 0 auto;
+$wrapperWidth: 300px;
+$textAlignCenter: center;
+$smallPadding: 1em;
+$smallMargin: 1em;
+
+// color ============================== /
+$backgroundColor: black;
+$wrapperColor: white;
 
 
 
@@ -31,9 +41,7 @@
 
 
 
-
-
-// // color ============================== /
+// 
 // $base-color: black;
 // $primary-color: #57E1C0;
 // $secondary-color: #50DDFC;
@@ -61,7 +69,7 @@
 // $font-size-25: 25px;
 // $text-line: 1.5em;
 
-// //layout ============================== /
+// 
 // $max-width: 1150px;
 // $width-100: 100%;
 // $height-100: 100%;

@@ -8,24 +8,13 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-// // flexbox ============================== /
-// @mixin flex ($display: flex, $direction: null, $wrap: null, $justify: null) {
-//     display: $display;
-//     flex-direction: $direction;
-//     flex-wrap: $wrap;
-//     justify-content: $justify;
-// }
+// display ============================== /
+@mixin disp ($display: null, $direction: null, $wrap: null, $justify: null) {
+    display: $display;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+}
 
 // // navigation ============================== /
 // @mixin nav ($back-color, $border-radius, $color, $hover-color) {

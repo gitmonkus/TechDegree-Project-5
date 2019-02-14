@@ -1,8 +1,20 @@
 // // Container:
 // //     .wrapper
-// //     .pic-wrapper
+// //     .imgWrapper
 
+.background {
+    background: $backgroundColor;
+}
+.wrapper {
+    margin: 1em;
+    text-align: $textAlignCenter;
+    background: $wrapperColor;
+}
 
+.imgWrapper {
+    @include disp (flex, null, wrap, space-around);
+    
+}
 
 
 
