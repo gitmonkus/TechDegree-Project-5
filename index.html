@@ -12,19 +12,30 @@
         <main class="wrapper">
             <input class="search" type="search" placeholder="Search">
             <section class="imgWrapper">
-                <a href="photos/01.jpg" data-lightbox="image" data-title="Hay Bales
-                I love hay bales. Took this snap on a drive through the countryside past some straw fields." data-alt="imaeg 1"><img src="photos/thumbnails/01.jpg" alt="image1"></a>
-                <a href="photos/02.jpg" data-lightbox="image" data-title="My caption" data-alt="imaeg 2"><img src="photos/thumbnails/02.jpg" alt="image2"></a>
-                <a href="photos/03.jpg" data-lightbox="image" data-title="My caption" data-alt="imaeg 3"><img src="photos/thumbnails/03.jpg" alt="image3"></a>
-                <a href="photos/04.jpg" data-lightbox="image" data-title="My caption" data-alt="imaeg 4"><img src="photos/thumbnails/04.jpg" alt="image4"></a>
-                <a href="photos/05.jpg" data-lightbox="image" data-title="My caption" data-alt="imaeg 5"><img src="photos/thumbnails/05.jpg" alt="image5"></a>
-                <a href="photos/06.jpg" data-lightbox="image" data-title="My caption" data-alt="imaeg 6"><img src="photos/thumbnails/06.jpg" alt="image6"></a>
-                <a href="photos/07.jpg" data-lightbox="image" data-title="My caption" data-alt="imaeg 7"><img src="photos/thumbnails/07.jpg" alt="image7"></a>
-                <a href="photos/08.jpg" data-lightbox="image" data-title="My caption" data-alt="imaeg 8"><img src="photos/thumbnails/08.jpg" alt="image8"></a>
-                <a href="photos/09.jpg" data-lightbox="image" data-title="My caption" data-alt="imaeg 9"><img src="photos/thumbnails/09.jpg" alt="image9"></a>
-                <a href="photos/10.jpg" data-lightbox="image" data-title="My caption" data-alt="imaeg 10"><img src="photos/thumbnails/10.jpg" alt="image10"></a>
-                <a href="photos/11.jpg" data-lightbox="image" data-title="My caption" data-alt="imaeg 11"><img src="photos/thumbnails/11.jpg" alt="image11"></a>
-                <a href="photos/12.jpg" data-lightbox="image" data-title="My caption" data-alt="imaeg 12"><img src="photos/thumbnails/12.jpg" alt="image12"></a>
+                <a href="photos/01.jpg" data-lightbox="image" data-title="<p>Hay Bales</p>
+                I love hay bales. Took this snap on a drive through the countryside past some straw fields." data-alt="imaeg 1"><img src="photos/thumbnails/01.jpg" alt="Hay Bales"></a>
+                <a href="photos/02.jpg" data-lightbox="image" data-title="<p>Lake</p>
+                The lake was so calm today. We had a great view of the snow on the mountains from here." data-alt="imaeg 2"><img src="photos/thumbnails/02.jpg" alt="Lake"></a>
+                <a href="photos/03.jpg" data-lightbox="image" data-title="<p>Canyon</p>
+                I hiked to the top of the mountain and got this picture of the canyon and trees below." data-alt="imaeg 3"><img src="photos/thumbnails/03.jpg" alt="Canyon"></a>
+                <a href="photos/04.jpg" data-lightbox="image" data-title="<p>Iceberg</p>
+                It was amazing to see an iceberg up close, it was so cold but didn’t snow today." data-alt="imaeg 4"><img src="photos/thumbnails/04.jpg" alt="Iceberg"></a>
+                <a href="photos/05.jpg" data-lightbox="image" data-title="<p>Desert</p>
+                The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons." data-alt="imaeg 5"><img src="photos/thumbnails/05.jpg" alt="Desert"></a>
+                <a href="photos/06.jpg" data-lightbox="image" data-title="<p>Fall</p>
+                Fall is coming, I love when the leaves on the trees start to change color." data-alt="imaeg 6"><img src="photos/thumbnails/06.jpg" alt="Fall"></a>
+                <a href="photos/07.jpg" data-lightbox="image" data-title="<p>Plantation</p>
+                I drove past this plantation yesterday, everything is so green!" data-alt="imaeg 7"><img src="photos/thumbnails/07.jpg" alt="Plantation"></a>
+                <a href="photos/08.jpg" data-lightbox="image" data-title="<p>Dunes</p>
+                My summer vacation to the Oregon Coast. I love the sandy dunes!" data-alt="imaeg 8"><img src="photos/thumbnails/08.jpg" alt="Dunes"></a>
+                <a href="photos/09.jpg" data-lightbox="image" data-title="<p>Countryside Lane</p>
+                We enjoyed a quiet stroll down this countryside lane." data-alt="imaeg 9"><img src="photos/thumbnails/09.jpg" alt="Countryside"></a>
+                <a href="photos/10.jpg" data-lightbox="image" data-title="<p>Sunset</p>
+                Sunset at the coast! The sky turned a lovely shade of orange." data-alt="imaeg 10"><img src="photos/thumbnails/10.jpg" alt="Sunset"></a>
+                <a href="photos/11.jpg" data-lightbox="image" data-title="<p>Cave</p>
+                I did a tour of a cave today and the view of the landscape below was breathtaking." data-alt="imaeg 11"><img src="photos/thumbnails/11.jpg" alt="Cave"></a>
+                <a href="photos/12.jpg" data-lightbox="image" data-title="<p>Bluebells</p>
+                I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in." data-alt="imaeg 12"><img src="photos/thumbnails/12.jpg" alt="Bluebells"></a>
             </section>
         </main>
         <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
@@ -32,7 +43,9 @@
             lightbox.option({
               'disableScrolling': true,
               'fitImagesInViewport': true,
-              'wrapAround': true
+              'wrapAround': true,
+              'maxWidth': 800,
+              'maxHeight': 800
             });
         </script>
     </body>

@@ -16,6 +16,18 @@
     justify-content: $justify;
 }
 
+// Breakpoints =========================== /
+$breakpoints: ('768': 768px);
+
+@mixin mediaq($breakpoint) { 
+	$value: map-get($breakpoints, $breakpoint);
+	$size: map-get($breakpoints, '768'); 
+	@if $value >= $size {
+		@media (min-width: $value) {
+        @content; 
+        }
+    } 
+}
 // // navigation ============================== /
 // @mixin nav ($back-color, $border-radius, $color, $hover-color) {
 //     list-style: none;
@@ -69,15 +81,3 @@
 // }
 
 // // navigation ============================== /
-// // Breakpoints =========================== /
-// $breakpoints: ('769': 769px);
-
-// @mixin mediaq($breakpoint) { 
-// 	$value: map-get($breakpoints, $breakpoint);
-// 	$size: map-get($breakpoints, '769'); 
-// 	@if $value >= $size {
-// 		@media (min-width: $value) {
-//         @content; 
-//         }
-//     } 
-// }

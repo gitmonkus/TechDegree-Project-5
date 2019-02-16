@@ -5,6 +5,18 @@ img {
     padding: $smallPadding;
 }
 
+.lb-nav {
+    @include mediaq('768') {
+        left: -25%;
+      
+    }
+}
+.lb-nav a.lb-next {
+    @include mediaq('768') {
+        float: right;
+    }
+   
+}
 
 // .img--frame {
 //     width: $width-100;

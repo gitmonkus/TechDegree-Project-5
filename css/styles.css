@@ -361,6 +361,18 @@ img {
   padding: 1em;
 }
 
+@media (min-width: 768px) {
+  .lb-nav {
+    left: -25%;
+  }
+}
+
+@media (min-width: 768px) {
+  .lb-nav a.lb-next {
+    float: right;
+  }
+}
+
 .search {
   padding: 1em;
   margin: 1em;
