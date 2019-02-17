@@ -3,4 +3,16 @@
 .search {
     padding: $smallPadding;
     margin: $smallMargin;
+    font-size: 16px;
+    @include mediaq ('768') {
+        width: 40%;
+        margin: 2em;
+        border-radius: 5px;
+        border: 2px solid #E5E5E5;
+    }
+}
+.search::placeholder {
+    font-size: 16px;
+        color: #AFAFAF;
+
 }

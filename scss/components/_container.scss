@@ -4,16 +4,28 @@
 
 .background {
     background: $backgroundColor;
+  
 }
 .wrapper {
     margin: 1em;
     text-align: $textAlignCenter;
     background: $wrapperColor;
+    @include mediaq ('768') {
+        margin: 3.5em auto;
+        max-width: 1300px;
+    }
 }
 
 .imgWrapper {
     @include disp (flex, null, wrap, space-around);
-    
+    @include mediaq ('768') {
+        @include disp (flex, row, wrap, space-around);
+        padding: 0 7em;
+    }
+    & a {
+       flex: 1 25%; 
+    }
+
 }
 
 

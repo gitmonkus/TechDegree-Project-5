@@ -350,15 +350,33 @@ template {
   text-align: center;
   background: white;
 }
+@media (min-width: 768px) {
+  .wrapper {
+    margin: 3.5em auto;
+    max-width: 1300px;
+  }
+}
 
 .imgWrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+@media (min-width: 768px) {
+  .imgWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 7em;
+  }
+}
+.imgWrapper a {
+  flex: 1 25%;
+}
 
 img {
-  padding: 1em;
+  padding: 0.7em;
 }
 
 @media (min-width: 768px) {
@@ -374,8 +392,22 @@ img {
 }
 
 .search {
-  padding: 1em;
+  padding: 0.7em;
   margin: 1em;
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  .search {
+    width: 40%;
+    margin: 2em;
+    border-radius: 5px;
+    border: 2px solid #E5E5E5;
+  }
+}
+
+.search::placeholder {
+  font-size: 16px;
+  color: #AFAFAF;
 }
 
 /*# sourceMappingURL=styles.css.map */
