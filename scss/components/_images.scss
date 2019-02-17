@@ -6,13 +6,13 @@ img {
 }
 
 .lb-nav {
-    @include mediaq('768') {
+    @include mediaq('1168') {
         left: -25%;
       
     }
 }
 .lb-nav a.lb-next {
-    @include mediaq('768') {
+    @include mediaq('1168') {
         float: right;
     }
    

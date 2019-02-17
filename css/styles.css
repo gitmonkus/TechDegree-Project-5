@@ -379,13 +379,13 @@ img {
   padding: 0.7em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1168px) {
   .lb-nav {
     left: -25%;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1168px) {
   .lb-nav a.lb-next {
     float: right;
   }
